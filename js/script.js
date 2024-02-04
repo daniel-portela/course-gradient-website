@@ -6,7 +6,7 @@ menu.onclick = () => {
     navbar.classList.toggle('active');
 }
 
-window.onscroll = () =>{
+window.onscroll = () => {
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 }
@@ -27,9 +27,9 @@ function createBox() {
 
     document.querySelector('.gradient-background').appendChild(span);
 
-    setTimeout(() =>{
+    setTimeout(() => {
         span.remove();
-    },3000)
+    }, 3000)
 
 }
 
